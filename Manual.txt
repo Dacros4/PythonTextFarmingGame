@@ -1,0 +1,20 @@
+Commands:
+up, down, right, left --> Control the player to move towards that direction for 1 unit
+goto <x> <y> --> Go to the position (x, y)
+check --> Check the place around you
+pick --> Pick up the things around you, if there's something
+inv check --> Check your inventory
+inv discard <id> <amount> --> Discard the amount of items in your inventory
+plant <id> --> Plant a specific kind of seed right here
+
+Plants:
+Wheat --> 10s
+Potato --> 16s
+Corn --> 20s
+Grass --> 5s
+
+Item ID:
+0 -> Wheat
+1 -> Potato
+2 -> Corn
+3 -> Grass
